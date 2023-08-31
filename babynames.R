@@ -25,4 +25,5 @@ best_julien <- juliens %>%
 best_julien
 
 # After the year 2010, how many babies were named Julien each year? -- returns a row for each year
+# show the dataset of babies named Julien and their count after 2010
 juliens[juliens$year > 2010,]
