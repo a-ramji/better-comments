@@ -24,5 +24,5 @@ best_julien <- juliens %>%
   select(year) %>% pull()
 best_julien
 
-# After the year 2010, how many babies were named Julien each year?
+# After the year 2010, how many babies were named Julien each year? -- returns a row for each year
 juliens[juliens$year > 2010,]
